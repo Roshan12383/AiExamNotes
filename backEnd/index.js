@@ -18,7 +18,7 @@ app.post("/api/credits/webhook",
     stripeWebhook
 )
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://aiexamnotesfrontend-5y6z.onrender.com",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 }));
